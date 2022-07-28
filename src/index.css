@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Superleague1";
+  src: local("Kamerik 205 W00 Heavy.ttf"),
+   url("./asset/font/Kamerik 205 W00 Heavy.ttf") format("truetype");
+  }
+
+@font-face {
+  font-family: "Superleague2";
+  src: local("Zamenhof Outline.ttf"),
+  url("./asset/font/Zamenhof Outline.ttf") format("truetype");
+  }

@@ -1,0 +1,13 @@
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+    background-image: url("https://assets.nst.com.my/images/articles/flor1_NSTfield_image_listing_featured.var_1619048893.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

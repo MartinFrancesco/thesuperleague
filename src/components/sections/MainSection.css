@@ -1,0 +1,67 @@
+.opener {
+    height: 500px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opener h2 {
+    font-family: "Superleague2";
+}
+
+.main-section {
+    height: 200vh;
+    background-color: yellow;
+    background-image: url("https://thesuperleague.it/assets/images/format-bg-image-mobile.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    color: #fff;
+}
+
+.main-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-section ul li {
+    margin: 50px 0;
+    text-align: left;
+}
+
+.main-section h3 {
+    font-family: "Superleague1";
+}
+
+.main-section h3 span {
+    font-family: "Superleague2";
+}
+
+.competition, .club, .match, .fairplay {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url('https://thesuperleague.it/assets/images/format/Icon%20Badge_HOVER.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.club {
+    background-image: url('https://thesuperleague.it/assets/images/format/Icon%20Trophy.svg');
+}
+
+.match {
+    background-image: url('https://thesuperleague.it/assets/images/format/Icon%20Field.svg');
+}
+
+.fairplay {
+    background-image: url('https://thesuperleague.it/assets/images/format/Icon%20Staduim.svg');
+}
