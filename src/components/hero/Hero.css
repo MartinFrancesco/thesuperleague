@@ -1,13 +1,38 @@
 .hero {
     height: 100vh;
     width: 100vw;
-    background-color: blueviolet;
-    background-image: url("https://assets.nst.com.my/images/articles/flor1_NSTfield_image_listing_featured.var_1619048893.jpg");
-    /* Set a specific height */
-    min-height: 500px;
+    background-color: #fff;
+    /* background-image: url("https://assets.nst.com.my/images/articles/flor1_NSTfield_image_listing_featured.var_1619048893.jpg"); */
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.square-gradient {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 90vh;
+    border: 10px solid;
+    border-image-slice: 1;
+    margin: 20px;
+}
+
+.square-gradient-purple {
+    border-image-source: linear-gradient(238.82deg, #2CB2FF 6.02%, #F555DB 95.62%);
+}
+
+.square-gradient h1 {
+    font-family: "Superleague2";
+    font-size: 4.1rem;
+    text-align: left;
+    margin: 10px;
+}
+
+.square-gradient h1 span {
+    font-family: "Superleague1";
+    font-size: 4.1rem;
+}
+
