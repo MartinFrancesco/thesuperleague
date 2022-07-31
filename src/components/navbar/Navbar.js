@@ -1,9 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, Router, Route, Link } from 'react';
 import "./Navbar.css"
+import PressRealese from '../sections/press/PressRealese';
 
 const Navbar = () => {
   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const dropdownRef = useRef(null);
+  //#endregion
+  const [isActive, setIsActive] = useState(false);
+  const onClick = () => setIsActive(!isActive);
 
   const controlNavbar = () => {
     if (typeof window !== 'undefined') { 
@@ -30,12 +35,31 @@ const Navbar = () => {
   }, [lastScrollY]);
 
   return (
-        <nav className={`active ${show && 'hidden'}`}>
+    <>
+    <nav className={`active ${show && 'hidden'}`}>
+        <div>
+            <h2>THE SUPER LEAGUE</h2>
             <div>
-                <h2>THE SUPER LEAGUE</h2>
-                <div>=</div>
+                <div onClick={onClick} className="menu-trigger">
+                    <div>-</div>
+                </div>
+                {/* MENU */}
+                { isActive &&
+                    <div
+                        className="menu-opened"
+                        ref={dropdownRef}
+                        >
+                        <ul>
+                            <li>
+                                <a href="/">PRESS RELEASE</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
             </div>
-        </nav>
+        </div>
+    </nav>
+    </>
   );
 };
 

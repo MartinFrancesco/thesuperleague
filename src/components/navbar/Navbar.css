@@ -31,4 +31,28 @@
     align-items: center;
     width: 100%;
     margin: 0 20px;
-} 
+}
+
+.menu-trigger {
+    height: 100%;
+    width: 100px;
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+}
+
+.menu-opened {
+    background: linear-gradient(238.82deg, #2CB2FF 6.02%, #F555DB 95.62%);
+    position:fixed;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    padding-top: 80px;
+}
+
+.menu-opened a {
+    color: #fff;
+    font-size: 2.2rem;
+    text-decoration: none;
+}
