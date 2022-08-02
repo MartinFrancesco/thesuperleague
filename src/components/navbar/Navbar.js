@@ -1,5 +1,11 @@
-import React, { useState, useEffect, useRef, Router, Route, Link } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import "./Navbar.css"
+import {
+    BrowserRouter,
+    Route,
+    Link,
+    Routes
+  } from "react-router-dom";
 import PressRealese from '../sections/press/PressRealese';
 
 const Navbar = () => {
@@ -38,23 +44,25 @@ const Navbar = () => {
     <>
     <nav className={`active ${show && 'hidden'}`}>
         <div>
-            <h2>THE SUPER LEAGUE</h2>
+            <Link to="/"><h2>THE SUPER LEAGUE</h2></Link>
             <div>
                 <div onClick={onClick} className="menu-trigger">
-                    <div>-</div>
+                    <div> &#9776; </div>
                 </div>
                 {/* MENU */}
-                { isActive &&
-                    <div
-                        className="menu-opened"
-                        ref={dropdownRef}
-                        >
-                        <ul>
-                            <li>
-                                <a href="/">PRESS RELEASE</a>
-                            </li>
-                        </ul>
-                    </div>
+                { isActive &&                    
+                        <div className="menu-opened"
+                             ref={dropdownRef}>
+                            <div onClick={onClick} className="close">X</div>
+                            <ul>
+                                <li>
+                                    <Link to="/" onClick={onClick}>HOME</Link>  
+                                </li>
+                                <li>  
+                                    <Link to="press" onClick={onClick}>PRESSREALESE</Link>
+                                </li>
+                            </ul> 
+                        </div>
                 }
             </div>
         </div>

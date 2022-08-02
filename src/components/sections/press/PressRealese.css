@@ -1,0 +1,12 @@
+.press {
+    color: #fff;
+    background-color: #000;
+    padding: 100px 20px 25px 20px;
+}
+
+.title-opener {
+    background: linear-gradient(238.82deg, #2CB2FF 6.02%, #F555DB 95.62%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: left;
+}
