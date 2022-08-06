@@ -16,16 +16,13 @@ function App() {
 
     <div className="App">
       <BrowserRouter>
-          <div>
             <Navbar />
 
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="press" element={<PressRealese />} />
               <Route path="albo" element={<Albo />} />
-              <Route index element={<Home />} />
             </Routes>
-          </div>
       </BrowserRouter>
     </div>
   );
