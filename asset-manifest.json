@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thesuperleague/static/css/main.e7c2ed81.css",
-    "main.js": "/thesuperleague/static/js/main.664c6da4.js",
+    "main.js": "/thesuperleague/static/js/main.61f4b0f6.js",
     "static/js/787.ff210557.chunk.js": "/thesuperleague/static/js/787.ff210557.chunk.js",
     "static/media/biccari1.png": "/thesuperleague/static/media/biccari1.c543a8dc37e0ad6f8aa5.png",
     "static/media/forest1.png": "/thesuperleague/static/media/forest1.d444f80f9660d203b781.png",
@@ -15,11 +15,11 @@
     "static/media/Kamerik 205 W00 Heavy.ttf": "/thesuperleague/static/media/Kamerik 205 W00 Heavy.d6247ba7b0ffdd7ea7f8.ttf",
     "index.html": "/thesuperleague/index.html",
     "main.e7c2ed81.css.map": "/thesuperleague/static/css/main.e7c2ed81.css.map",
-    "main.664c6da4.js.map": "/thesuperleague/static/js/main.664c6da4.js.map",
+    "main.61f4b0f6.js.map": "/thesuperleague/static/js/main.61f4b0f6.js.map",
     "787.ff210557.chunk.js.map": "/thesuperleague/static/js/787.ff210557.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7c2ed81.css",
-    "static/js/main.664c6da4.js"
+    "static/js/main.61f4b0f6.js"
   ]
 }
