@@ -5,7 +5,7 @@ import  { Breakpoint } from 'react-socks';
 const MainSection = () => {
     return (
         <>
-            
+            <Breakpoint small down>
                 <div className="main-section">
                     <div className="opener">
                             <h2>I MIGLIORI CLUB</h2>
@@ -41,8 +41,8 @@ const MainSection = () => {
                 </div>
                 
                 <Footer />
-          
-            {/* <Breakpoint medium up>
+            </Breakpoint>
+            <Breakpoint medium up>
                 <div className="main-section-desktop">
                     <span>
                         <h5>STAGIONE 2022-2023</h5>
@@ -50,7 +50,7 @@ const MainSection = () => {
                     </span>
                     <h1 className="title-opener">ACCEDI DA MOBILE</h1>
                 </div>
-            </Breakpoint> */}
+            </Breakpoint>
         </>
     )
 }

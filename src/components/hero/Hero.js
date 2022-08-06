@@ -14,6 +14,7 @@ const Hero = () => {
 
     return (
         <>
+            <Breakpoint small down>
                 <div className="hero">
                         <div className="square-gradient square-gradient-purple">
                             <h1><span>THE</span><span>SUPER LEAGUE</span></h1>
@@ -41,6 +42,7 @@ const Hero = () => {
                             </div>
                         </Carousel>
                 </div>
+            </Breakpoint>
         </>
     )
 }
