@@ -1,9 +1,9 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import "./Hero.css"
-import  { Breakpoint } from 'react-socks';
+import  { BreakpointProvider, Breakpoint } from 'react-socks';
 
 import trio from '../../asset/img/trio.jpeg';
 import guardiani from '../../asset/img/guardiani.jpeg';
@@ -14,6 +14,7 @@ const Hero = () => {
 
     return (
         <>
+        <BreakpointProvider>
             <Breakpoint small down>
                 <div className="hero">
                         <div className="square-gradient square-gradient-purple">
@@ -29,20 +30,21 @@ const Hero = () => {
                             interval={4000}
                         >
                             <div>
-                                <img src={trio} />
+                                <img src={trio} alt="logo"/>
                             </div>
                             <div>
-                                <img src={guardiani} />
+                                <img src={guardiani} alt="logo"/>
                             </div>
                             <div>
-                                <img src={nott} />
+                                <img src={nott} alt="logo"/>
                             </div>
                             <div>
-                                <img src={biccari} />
+                                <img src={biccari} alt="logo"/>
                             </div>
                         </Carousel>
                 </div>
             </Breakpoint>
+        </BreakpointProvider>
         </>
     )
 }

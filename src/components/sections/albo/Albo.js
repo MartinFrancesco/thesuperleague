@@ -1,5 +1,4 @@
 import "./Albo.css"
-import  { Breakpoint } from 'react-socks';
 import "../../footer/Footer"
 import { SocialIcon } from 'react-social-icons';
 
@@ -36,7 +35,7 @@ const Albo = () => {
                         <li>
                             <span>
                                 <div className="club-logo">
-                                    <img src={trio} />
+                                    <img src={trio} alt="logo"/>
                                 </div>
                                 <div>
                                     <h2>F.C. Triumvirato</h2>
@@ -52,7 +51,7 @@ const Albo = () => {
                         <li>
                             <span>
                                 <div className="club-logo">
-                                    <img src={guardiani} />
+                                    <img src={guardiani} alt="logo"/>
                                 </div>
                                 <div>
                                     <h2>I Guardiani del Condor</h2>
@@ -68,7 +67,7 @@ const Albo = () => {
                         <li>
                             <span>
                                 <div className="club-logo">
-                                    <img src={nott} />
+                                    <img src={nott} alt="logo"/>
                                 </div>
                                 <div>
                                     <h2>Mignottingham Forest</h2>
@@ -84,7 +83,7 @@ const Albo = () => {
                         <li>
                             <span>
                                 <div className="club-logo">
-                                    <img src={biccari} />
+                                    <img src={biccari} alt="logo"/>
                                 </div>
                                 <div>
                                     <h2>Biccari F.C.</h2>
@@ -100,7 +99,7 @@ const Albo = () => {
                         <li>
                             <span>
                                 <div className="club-logo">
-                                    <img src={logo} />
+                                    <img src={logo} alt="logo"/>
                                 </div>
                                 <div>
                                     <h2>Ignoranz Pusherz</h2>
@@ -116,7 +115,7 @@ const Albo = () => {
                         <li>
                             <span>
                                 <div className="club-logo">
-                                    <img src={logo} />
+                                    <img src={logo} alt="logo"/>
                                 </div>
                                 <div>
                                     <h2>Binzago River</h2>
@@ -132,7 +131,7 @@ const Albo = () => {
                         <li>
                             <span>
                                 <div className="club-logo">
-                                    <img src={logo} />
+                                    <img src={logo} alt="logo"/>
                                 </div>
                                 <div>
                                     <h2>Club</h2>
@@ -148,7 +147,7 @@ const Albo = () => {
                         <li>
                             <span>
                                 <div className="club-logo">
-                                    <img src={logo} />
+                                    <img src={logo} alt="logo"/>
                                 </div>
                                 <div>
                                     <h2>Club</h2>

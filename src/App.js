@@ -6,12 +6,11 @@ import MainSection from './components/sections/MainSection';
 import PressRealese from './components/sections/press/PressRealese';
 import Albo from './components/sections/albo/Albo';
 
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import  { Breakpoint, BreakpointProvider } from 'react-socks';
+import  { BreakpointProvider } from 'react-socks';
 
 function App() {
-  const [isHome, setHome] = useState(true);
 
   return (
   <BrowserRouter>

@@ -1,10 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import "./Navbar.css"
 import {
-    BrowserRouter,
-    Route,
     Link,
-    Routes
   } from "react-router-dom";
 
 const Navbar = () => {
