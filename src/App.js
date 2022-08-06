@@ -26,7 +26,7 @@ function App() {
               <Route 
                 path="/"
                 element={
-                  <Navigate to="home" />
+                  <Navigate to="/" />
                 }
               />
               {/* Regola pagina di Default sito */}
