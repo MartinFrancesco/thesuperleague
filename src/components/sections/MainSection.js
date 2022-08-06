@@ -28,11 +28,11 @@ const MainSection = () => {
                         <li>
                         <div className="match"></div>
                             <h2><span>PARTITE</span> E TORNEO</h2>
-                            <p>Le partite si giocheranno seguendo la stagione di calcio attuale della Lega Serie A Frecciarossa.</p>
+                            <p>Le partite si giocheranno seguendo la stagione di calcio attuale della Lega Serie A Tim. Campionato e Coppa di lega come nelle migliori storie.</p>
                         </li>
                         <li>
                         <div className="fairplay"></div>
-                            <h2>SOLIDARIETA E <span>SOSTENIBILITA</span></h2>
+                            <h2>SOLIDARIETÁ E <span>SOSTENIBILITÁ</span></h2>
                             <p>I contributi di solidarietà cresceranno in linea con i ricavi della lega e si prevede che superino i 10 miliardi di euro durante il corso del periodo iniziale di impegno dei club. Questi contributi di solidarietà seguiranno un nuovo modello di regolare rendicontazione pubblica in piena trasparenza.
                                 In sostanza: più budget all'iscrizione delle squadre, più soldi ai vincitori.
                             </p>
