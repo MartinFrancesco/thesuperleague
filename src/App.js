@@ -6,7 +6,7 @@ import PressRealese from './components/sections/press/PressRealese';
 import Albo from './components/sections/albo/Albo';
 
 import React from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate, Link } from "react-router-dom";
 import  { BreakpointProvider } from 'react-socks';
 
 function App() {
@@ -21,6 +21,24 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="press" element={<PressRealese />} />
               <Route path="albo" element={<Albo />} />
+
+              {/* White Card / pag 404 component */}
+              <Route 
+                path="/"
+                element={
+                  <Navigate to="home" />
+                }
+              />
+              {/* Regola pagina di Default sito */}
+              <Route 
+                path="*"
+                element={
+                  <div>
+                    <p>This page does not exist</p>
+                    <Link to="/">Go to Homepage</Link>
+                  </div>
+                }
+              />
             </Routes>
       </BrowserRouter>
     </div>
