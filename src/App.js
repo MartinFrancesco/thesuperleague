@@ -24,19 +24,9 @@ function App() {
 
               {/* White Card / pag 404 component */}
               <Route 
-                path="/"
-                element={
-                  <Navigate to="/" />
-                }
-              />
-              {/* Regola pagina di Default sito */}
-              <Route 
                 path="*"
                 element={
-                  <div>
-                    <p>This page does not exist</p>
-                    <Link to="/">Go to Homepage</Link>
-                  </div>
+                  <Navigate to="/" />
                 }
               />
             </Routes>
