@@ -3,7 +3,7 @@ import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import "./Hero.css"
-import  { BreakpointProvider, Breakpoint } from 'react-socks';
+import  { Breakpoint } from 'react-socks';
 
 import trio from '../../asset/img/trio.jpeg';
 import guardiani from '../../asset/img/guardiani.jpeg';
@@ -14,8 +14,6 @@ const Hero = () => {
 
     return (
         <>
-        <BreakpointProvider>
-            <Breakpoint small down>
                 <div className="hero">
                         <div className="square-gradient square-gradient-purple">
                             <h1><span>THE</span><span>SUPER LEAGUE</span></h1>
@@ -43,8 +41,6 @@ const Hero = () => {
                             </div>
                         </Carousel>
                 </div>
-            </Breakpoint>
-        </BreakpointProvider>
         </>
     )
 }
