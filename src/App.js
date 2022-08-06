@@ -13,17 +13,21 @@ import  { BreakpointProvider } from 'react-socks';
 function App() {
 
   return (
-  <BrowserRouter>
+
     <div className="App">
-      <Navbar />
+      <BrowserRouter>
+          <div>
+            <Navbar />
+
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="press" element={<PressRealese />} />
+              <Route path="albo" element={<Albo />} />
+              <Route index element={<Home />} />
+            </Routes>
+          </div>
+      </BrowserRouter>
     </div>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="press" element={<PressRealese />} />
-      <Route path="albo" element={<Albo />} />
-      <Route index element={<Home />} />
-    </Routes>
-  </BrowserRouter>
   );
 }
 export default App;
