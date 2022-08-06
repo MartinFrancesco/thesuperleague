@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e579eae5.css",
-    "main.js": "/static/js/main.d5af8b31.js",
-    "static/js/787.ff210557.chunk.js": "/static/js/787.ff210557.chunk.js",
-    "static/media/biccari1.png": "/static/media/biccari1.c543a8dc37e0ad6f8aa5.png",
-    "static/media/forest1.png": "/static/media/forest1.d444f80f9660d203b781.png",
-    "static/media/Zamenhof Outline.ttf": "/static/media/Zamenhof Outline.758bdc5d9e222ead4f2c.ttf",
-    "static/media/trio1.jpeg": "/static/media/trio1.c46ee1757df5024aa16a.jpeg",
-    "static/media/guardiani1.jpeg": "/static/media/guardiani1.ce0bcc5829b4579e9edf.jpeg",
-    "static/media/guardiani.jpeg": "/static/media/guardiani.cb7ed0101cbe87ab598b.jpeg",
-    "static/media/biccari.jpeg": "/static/media/biccari.999c5c20e95e4021bd8b.jpeg",
-    "static/media/trio.jpeg": "/static/media/trio.8aa63c0426af53d76913.jpeg",
-    "static/media/nott.jpeg": "/static/media/nott.308ec56e9f02793678ff.jpeg",
-    "static/media/Kamerik 205 W00 Heavy.ttf": "/static/media/Kamerik 205 W00 Heavy.d6247ba7b0ffdd7ea7f8.ttf",
-    "index.html": "/index.html",
-    "main.e579eae5.css.map": "/static/css/main.e579eae5.css.map",
-    "main.d5af8b31.js.map": "/static/js/main.d5af8b31.js.map",
-    "787.ff210557.chunk.js.map": "/static/js/787.ff210557.chunk.js.map"
+    "main.css": "/thesuperleague/static/css/main.e7c2ed81.css",
+    "main.js": "/thesuperleague/static/js/main.1d05ee17.js",
+    "static/js/787.ff210557.chunk.js": "/thesuperleague/static/js/787.ff210557.chunk.js",
+    "static/media/biccari1.png": "/thesuperleague/static/media/biccari1.c543a8dc37e0ad6f8aa5.png",
+    "static/media/forest1.png": "/thesuperleague/static/media/forest1.d444f80f9660d203b781.png",
+    "static/media/Zamenhof Outline.ttf": "/thesuperleague/static/media/Zamenhof Outline.758bdc5d9e222ead4f2c.ttf",
+    "static/media/trio1.jpeg": "/thesuperleague/static/media/trio1.c46ee1757df5024aa16a.jpeg",
+    "static/media/guardiani1.jpeg": "/thesuperleague/static/media/guardiani1.ce0bcc5829b4579e9edf.jpeg",
+    "static/media/guardiani.jpeg": "/thesuperleague/static/media/guardiani.cb7ed0101cbe87ab598b.jpeg",
+    "static/media/biccari.jpeg": "/thesuperleague/static/media/biccari.999c5c20e95e4021bd8b.jpeg",
+    "static/media/trio.jpeg": "/thesuperleague/static/media/trio.8aa63c0426af53d76913.jpeg",
+    "static/media/nott.jpeg": "/thesuperleague/static/media/nott.308ec56e9f02793678ff.jpeg",
+    "static/media/Kamerik 205 W00 Heavy.ttf": "/thesuperleague/static/media/Kamerik 205 W00 Heavy.d6247ba7b0ffdd7ea7f8.ttf",
+    "index.html": "/thesuperleague/index.html",
+    "main.e7c2ed81.css.map": "/thesuperleague/static/css/main.e7c2ed81.css.map",
+    "main.1d05ee17.js.map": "/thesuperleague/static/js/main.1d05ee17.js.map",
+    "787.ff210557.chunk.js.map": "/thesuperleague/static/js/787.ff210557.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e579eae5.css",
-    "static/js/main.d5af8b31.js"
+    "static/css/main.e7c2ed81.css",
+    "static/js/main.1d05ee17.js"
   ]
 }
