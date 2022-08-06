@@ -6,7 +6,6 @@ import {
     Link,
     Routes
   } from "react-router-dom";
-import PressRealese from '../sections/press/PressRealese';
 
 const Navbar = () => {
   const [show, setShow] = useState(true);
@@ -59,7 +58,10 @@ const Navbar = () => {
                                     <Link to="/" onClick={onClick}>HOME</Link>  
                                 </li>
                                 <li>  
-                                    <Link to="press" onClick={onClick}>PRESSREALESE</Link>
+                                    <Link to="press" onClick={onClick}>PRESS REALESE</Link>
+                                </li>
+                                <li>  
+                                    <Link to="albo" onClick={onClick}>ALBO D'ORO</Link>
                                 </li>
                             </ul> 
                         </div>

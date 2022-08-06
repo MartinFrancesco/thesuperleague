@@ -1,46 +1,44 @@
-.opener {
+.main-section {
+    position: relative;
+    top: 90vh;
+    background-image: url("https://thesuperleague.it/assets/images/format-bg-image-mobile.jpg");
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.main-section .opener {
     font-size: 1.1rem;
     text-align: left;
     background-color: #000;
     color: #fff;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    padding: 40px 20px;
+    padding: 20px 20px 140px 20px;
 }
 
-.opener h2 {
+.main-section .opener h2 {
     font-family: "Superleague2";
-    margin: 12px 0;
+    margin: 0 0 12px 0;
 }
 
-.opener .title-opener h2 {
+.main-section .opener .title-opener h2 {
     font-family: "Superleague1";
     text-align: left;
-    margin: 12px 0;
+    margin: 0 0 12px 0;
 }
 
-.opener .title-opener {
+.main-section .opener .title-opener {
     background: linear-gradient(238.82deg, #2CB2FF 6.02%, #F555DB 95.62%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       text-align: left;
 }
 
-.main-section {
-    background-color: yellow;
-    background-image: url("https://thesuperleague.it/assets/images/format-bg-image-mobile.jpg");
-    /* Create the parallax scrolling effect */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px 20px;
-    color: #fff;
-}
-
 .main-section ul {
     list-style: none;
-    padding: 0;
+    padding: 0 20px;
 }
 
 .main-section ul li {
@@ -79,3 +77,59 @@
 .fairplay {
     background-image: url('https://thesuperleague.it/assets/images/format/Icon%20Staduim.svg');
 }
+
+/* RESPONSIVE */
+.main-section-desktop {
+    position: fixed;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/90/77/european-super-league-football-tournament-logo-vector-37489077.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section-desktop span {
+    text-align: center;
+    margin: 0 50px;
+}
+
+.main-section-desktop span h5 {
+    font-size: 1.3rem;
+    color: #fff;
+    margin: 0;
+    font-weight: normal;
+    text-shadow: #000 2px 0 20px;
+}
+
+.main-section-desktop span h5:last-child {
+    font-weight: bold;
+}
+
+.main-section-desktop h1 {
+    font-size: 2rem;
+    color: linear-gradient(238.82deg, #2CB2FF 6.02%, #F555DB 95.62%);
+    margin-bottom: 120px;
+
+    background: linear-gradient(238.82deg, #2CB2FF 6.02%, #F555DB 95.62%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+}
+
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+  

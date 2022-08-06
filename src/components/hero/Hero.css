@@ -1,5 +1,6 @@
 .hero {
-    height: 100vh;
+    position: fixed;
+    height: 90vh;
     width: 100vw;
     background-color: #fff;
     /* background-image: url("https://assets.nst.com.my/images/articles/flor1_NSTfield_image_listing_featured.var_1619048893.jpg"); */
@@ -8,16 +9,31 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
+}
+
+.carousel {
+    min-height: 100%;  /* change this to whatever you want */
+    width: auto;
+}
+
+.carousel img {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100%;  /* change this to whatever you want */
+    width: auto;
 }
 
 .square-gradient {
+    position: absolute;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    height: 90vh;
+    height: 80vh;
     border: 10px solid;
     border-image-slice: 1;
     margin: 20px;
+    z-index: 2;
 }
 
 .square-gradient-purple {
@@ -29,10 +45,19 @@
     font-size: 4.1rem;
     text-align: left;
     margin: 10px;
+    color: #fff;
+    line-height: 60px;
 }
 
 .square-gradient h1 span {
+    display: block;
+}
+
+.square-gradient h1 span:first-child {
+    letter-spacing: 0.6rem;
+}
+
+.square-gradient h1 span:last-child {
     font-family: "Superleague1";
     font-size: 4.1rem;
 }
-
