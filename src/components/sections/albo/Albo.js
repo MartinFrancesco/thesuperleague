@@ -6,6 +6,7 @@ import trio from '../../../asset/img/loghi/trio1.jpeg';
 import guardiani from '../../../asset/img/loghi/guardiani1.jpeg';
 import nott from '../../../asset/img/loghi/forest1.png';
 import biccari from '../../../asset/img/loghi/biccari1.png';
+import mantrona from '../../../asset/img/loghi/mantrona.png';
 import logo from '../../../asset/img/loghi/log.png';
 
 const Albo = () => {
@@ -39,7 +40,7 @@ const Albo = () => {
                                 </div>
                                 <div>
                                     <h2>F.C. Triumvirato</h2>
-                                    <label>Crasso-Pompeo-Cesare</label>
+                                    <label>Crasso, Pompeo e Cesare</label>
                                 </div>
                             </span>
                             <span>
@@ -86,7 +87,7 @@ const Albo = () => {
                                     <img src={biccari} alt="logo"/>
                                 </div>
                                 <div>
-                                    <h2>Biccari F.C.</h2>
+                                    <h2>F.C. Biccari</h2>
                                     <label>Riccardo M.</label>
                                 </div>
                             </span>
@@ -131,11 +132,11 @@ const Albo = () => {
                         <li>
                             <span>
                                 <div className="club-logo">
-                                    <img src={logo} alt="logo"/>
+                                    <img src={mantrona} alt="logo"/>
                                 </div>
                                 <div>
-                                    <h2>Club</h2>
-                                    <label>Allenatori</label>
+                                    <h2>U.S. La Mantrona</h2>
+                                    <label>Simone R.</label>
                                 </div>
                             </span>
                             <span>
@@ -150,8 +151,8 @@ const Albo = () => {
                                     <img src={logo} alt="logo"/>
                                 </div>
                                 <div>
-                                    <h2>Club</h2>
-                                    <label>Allenatori</label>
+                                    <h2>Bose don't lie</h2>
+                                    <label>Bosa</label>
                                 </div>
                             </span>
                             <span>

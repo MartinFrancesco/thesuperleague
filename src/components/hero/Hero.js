@@ -9,6 +9,7 @@ import trio from '../../asset/img/trio.jpeg';
 import guardiani from '../../asset/img/guardiani.jpeg';
 import nott from '../../asset/img/nott.jpeg';
 import biccari from '../../asset/img/biccari.jpeg';
+import mantrona from '../../asset/img/mantrona.jpeg';
 
 const Hero = () => {
 
@@ -29,16 +30,19 @@ const Hero = () => {
                             interval={4000}
                         >
                             <div>
-                                <img src={trio} alt="logo"/>
+                                <img src={guardiani} alt="logo"/>
                             </div>
                             <div>
-                                <img src={guardiani} alt="logo"/>
+                                <img src={trio} alt="logo"/>
                             </div>
                             <div>
                                 <img src={nott} alt="logo"/>
                             </div>
                             <div>
                                 <img src={biccari} alt="logo"/>
+                            </div>
+                            <div>
+                                <img src={mantrona} alt="logo"/>
                             </div>
                         </Carousel>
                 </div>
