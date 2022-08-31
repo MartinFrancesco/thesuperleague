@@ -23,12 +23,12 @@ const MainSection = () => {
                         <li>
                         <div className="club"></div>
                             <h2>I MIGLIORI <span>8 CLUB</span></h2>
-                            <p>Durante il campionato, le 8 squadre si qualificheranno per un torneo prima a gironi e poi ad eliminazione diretta, giocando in casa ed in trasferta fino alla finale a gara secca della Super League FigA CUP, in un palpitante finale della stagione di quattro settimane.</p>
+                            <p>La Lega offre due tipologie di torneo: il Campionato e la Coppa di Lega. Rispettivamente: la "Super League Mantra Edition" e la "Super League FigA Cup", dove le 8 squadre si sfideranno giocando in casa e in trasferta fino a un palpitante finale di stagione.</p>
                         </li>
                         <li>
                         <div className="match"></div>
                             <h2><span>PARTITE</span> E TORNEO</h2>
-                            <p>Le partite si giocheranno seguendo la stagione di calcio attuale della Lega Serie A Tim. Campionato e Coppa di lega come nelle migliori storie.</p>
+                            <p>Le partite si giocheranno seguendo la stagione di calcio attuale della Lega Serie A Tim. Più calcio, più budget, più gloria eterna, come nelle migliori storie.</p>
                         </li>
                         <li>
                         <div className="fairplay"></div>

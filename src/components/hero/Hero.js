@@ -7,7 +7,7 @@ import  { Breakpoint } from 'react-socks';
 
 import trio from '../../asset/img/trio.jpeg';
 import guardiani from '../../asset/img/guardiani.jpeg';
-import nott from '../../asset/img/nott.jpeg';
+import s104 from '../../asset/img/s104.jpeg';
 import biccari from '../../asset/img/biccari.jpeg';
 import mantrona from '../../asset/img/mantrona.jpeg';
 
@@ -36,7 +36,7 @@ const Hero = () => {
                                 <img src={trio} alt="logo"/>
                             </div>
                             <div>
-                                <img src={nott} alt="logo"/>
+                                <img src={s104} alt="logo"/>
                             </div>
                             <div>
                                 <img src={biccari} alt="logo"/>

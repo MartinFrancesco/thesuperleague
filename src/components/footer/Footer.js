@@ -7,8 +7,8 @@ const Footer = () => {
             <div className="border-gradient border-gradient-purple">
             <SocialIcon url="https://twitter.com/eslcomms" fgColor="#A2A2A2" bgColor="transparent"/>
                 <h4>
-                    © 2021 EUROPEAN SUPER <br/>
-                    LEAGUE COMPANY, S.L. | <br/>
+                    © 2021 SUPER LEAGUE<br/>
+                    MANTRA EDITION, S.L. | <br/>
                     Privacy Policy
                 </h4>
             </div>
