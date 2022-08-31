@@ -9,7 +9,7 @@ const PressRealese = () => {
                 </div>
 
                 <p>
-                    Sei delle principali squadre di fantcalcio binzaghesi si sono riunite oggi per annunciare di aver deciso di istituire una nuova competizione, la Super League, governata dai suoi club fondatori.
+                    Sei delle principali squadre di fantacalcio binzaghesi si sono riunite oggi per annunciare di aver deciso di istituire una nuova competizione, la Super League, governata dai suoi club fondatori.
                     I Guardiani del Condor, F.C. Triumvirato, Shalke La 104, F.C. Biccari, Ignoranz Pusherz e U.S. Mantrona si sono tutti uniti come club fondatori.
                     La formazione della Super League arriva in un momento in cui la pandemia globale ha accelerato l'instabilità del modello economico del fantacalcio esistente. Inoltre, per diversi anni, i club fondatori hanno avuto l'obiettivo di migliorare la qualità e l'intensità delle competizioni fantacalcistiche esistenti durante ogni stagione e di creare un formato per i migliori club e giocatori per competere su base regolare.
                     La pandemia ha dimostrato che sono necessari una visione strategica e un approccio commerciale sostenibile per aumentare il valore e il supporto a beneficio dell'intera piramide fantacalcistica. Negli ultimi mesi si è svolto un ampio dialogo con le parti interessate del fantacalcio in merito al formato futuro delle competizioni. I club fondatori ritengono che le soluzioni proposte a seguito di questi colloqui non risolvano questioni fondamentali, inclusa la necessità di fornire partite di qualità superiore e risorse finanziarie aggiuntive per la piramide fantacalcistica complessiva.

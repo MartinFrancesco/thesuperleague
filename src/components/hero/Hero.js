@@ -10,6 +10,7 @@ import guardiani from '../../asset/img/guardiani.jpeg';
 import s104 from '../../asset/img/s104.jpeg';
 import biccari from '../../asset/img/biccari.jpeg';
 import mantrona from '../../asset/img/mantrona.jpeg';
+import ignoranz from '../../asset/img/ignoranz.jpg';
 
 const Hero = () => {
 
@@ -43,6 +44,9 @@ const Hero = () => {
                             </div>
                             <div>
                                 <img src={mantrona} alt="logo"/>
+                            </div>
+                            <div>
+                                <img src={ignoranz} alt="logo"/>
                             </div>
                         </Carousel>
                 </div>

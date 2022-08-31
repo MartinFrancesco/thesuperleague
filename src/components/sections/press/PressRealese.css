@@ -5,6 +5,10 @@
     text-align: left;
 }
 
+.press p {
+    margin: 0;
+}
+
 .title-opener {
     background: linear-gradient(238.82deg, #2CB2FF 6.02%, #F555DB 95.62%);
       -webkit-background-clip: text;
